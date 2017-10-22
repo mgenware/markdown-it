@@ -5,9 +5,7 @@ var MarkdownIt = require('../');
 var generate = require('markdown-it-testgen');
 
 describe('Codemark', () => {
-  var md = new MarkdownIt({
-    linkify: true
-  });
+  var md = new MarkdownIt('coldmark');
 
   generate(path.join(__dirname, 'fixtures/coldmark'), md);
 });
