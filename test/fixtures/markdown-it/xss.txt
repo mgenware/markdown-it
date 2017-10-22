@@ -111,7 +111,7 @@ References
 .
 
 
-Make sure we decode entities before split:
+Make sure we decode entities:
 .
 ```js&#32;custom-class
 test1
@@ -121,8 +121,25 @@ test1
 test2
 ```
 .
-<pre><code class="js">test1
+<pre><code class="js coldmark-custom-class">test1
 </code></pre>
-<pre><code class="js">test2
+<pre><code class="js coldmark-custom-class">test2
+</code></pre>
+.
+
+
+Make sure names are encoded:
+.
+```""
+test1
+```
+
+```" onclick="foo()" "
+test2
+```
+.
+<pre><code class="&quot;&quot;">test1
+</code></pre>
+<pre><code class="&quot; coldmark-onclick=&quot;foo()&quot; coldmark-&quot;">test2
 </code></pre>
 .

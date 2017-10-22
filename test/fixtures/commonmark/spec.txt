@@ -1947,7 +1947,7 @@ def foo(x)
 end
 ~~~~~~~
 .
-<pre><code class="language-ruby">def foo(x)
+<pre><code class="language-ruby coldmark-startline=3 coldmark-$%@#$">def foo(x)
   return 3
 end
 </code></pre>

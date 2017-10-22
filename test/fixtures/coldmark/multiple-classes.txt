@@ -1,0 +1,9 @@
+Multiple class(first class will be preceded by "language-")
+.
+```javascript error
+1/0
+```
+.
+<pre><code class="language-javascript coldmark-error">1/0
+</code></pre>
+.
