@@ -1,6 +1,6 @@
 {
-  "name": "markdown-it",
-  "version": "8.4.0",
+  "name": "markdown-it-coldmark",
+  "version": "0.0.2",
   "description": "Markdown-it - modern pluggable markdown parser.",
   "keywords": [
     "markdown",
