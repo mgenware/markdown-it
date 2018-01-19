@@ -1,0 +1,31 @@
+System style: error
+.
+```error
+```
+.
+<pre><code class="coldmark-error"></code></pre>
+.
+
+System style: warning
+.
+```warning
+```
+.
+<pre><code class="coldmark-warning"></code></pre>
+.
+
+System style: info
+.
+```info
+```
+.
+<pre><code class="coldmark-info"></code></pre>
+.
+
+System style: success
+.
+```success
+```
+.
+<pre><code class="coldmark-success"></code></pre>
+.
